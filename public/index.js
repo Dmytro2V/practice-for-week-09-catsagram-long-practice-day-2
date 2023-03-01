@@ -1,4 +1,5 @@
 import { createMainContent } from './main.js';
+//import { goInteractive } from './interactive.js';
 
 const initializePage = () => {
     // Create container
@@ -13,5 +14,5 @@ const initializePage = () => {
 
 window.onload = () => {
     initializePage();
-    createMainContent();
+    createMainContent();    
 };
